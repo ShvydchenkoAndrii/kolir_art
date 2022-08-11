@@ -1,0 +1,13 @@
+.main_kolir_name {
+    background-image: url(../img/molbert_yellow.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 200px 15px;
+    color: white
+}

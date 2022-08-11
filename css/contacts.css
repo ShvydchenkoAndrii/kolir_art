@@ -1,0 +1,19 @@
+.main_contacts_container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.contacts_info_list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contacts_social {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 20px;
+}

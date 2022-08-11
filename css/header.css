@@ -1,0 +1,23 @@
+.header_container {
+    background-color: var(--background-header-footer);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.header_logo_img {
+    width: 120px;
+}
+
+.header_navbar ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}

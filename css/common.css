@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+    --background-header-footer: rgb(255, 55, 0);
+}
+
+body {
+    background-color: #ffa600;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    text-align: center;
+}
