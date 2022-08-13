@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Playfair+Display&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Pacifico&family=Playfair+Display&family=Rubik&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,10 +12,16 @@
 :root {
     scroll-behavior: smooth;
     --background-header-footer: rgb(255, 55, 0);
+    --background-color: #f4daaa;
+    --social-bg: #ffa600;
+    --social-bg-hover: #ff8400;
+    --block-item-bg: antiquewhite;
+    --button-bg: #ffa600;
+    --button-bg-hover: rgb(255, 55, 0);
 }
 
 body {
-    background-color: #ffa600;
+    background-color: var(--background-color);
 }
 
 img {
@@ -29,4 +40,14 @@ a {
 
 h2 {
     text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
 }

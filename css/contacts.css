@@ -1,7 +1,11 @@
 .main_contacts_container {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    align-items: center;
+    padding: 60px 0;
+    max-width: 1200px;
+    margin: auto;
+    
 }
 
 .contacts_info_list {
@@ -16,4 +20,16 @@
     justify-content: start;
     flex-direction: row;
     gap: 20px;
+}
+
+.social-network {
+    background-color: var(--social-bg);
+    padding: 10px;
+    border-radius: 25%;
+
+}
+
+.social-network:hover {
+    background-color: var(--social-bg-hover);
+    transition: 0.6s;
 }

@@ -2,5 +2,26 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    padding: 60px 0;
+}
+
+.master-class_item {
+    background-color: var(--block-item-bg);  
+    border: 1px solid black; 
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.master-class-detalis {
+    background-color: var(--button-bg);
+    border: 0;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Pacifico', sans-serif;
 }

@@ -4,10 +4,14 @@
     justify-content: space-around;
     align-items: center;
     color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
 }
 
 .header_logo_img {
     width: 120px;
+    padding: 10px;
+    border-radius: 25%;
 }
 
 .header_navbar ul {
@@ -15,9 +19,26 @@
     justify-content: space-around;
     gap: 100px;
 }
+.navbar_item:hover {
+    text-decoration: underline;
+    color: black;
+    transition: 0.4s;
+}
 
 .social {
     display: flex;
     justify-content: space-around;
-    gap: 50px;
+    gap: 20px;
+}
+
+.social-network {
+    background-color: var(--social-bg);
+    padding: 10px;
+    border-radius: 25%;
+
+}
+
+.social-network:hover {
+    background-color: var(--social-bg-hover);
+    transition: 0.4s;
 }
