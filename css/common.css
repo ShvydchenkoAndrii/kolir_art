@@ -16,6 +16,7 @@
     --social-bg: #ffa600;
     --social-bg-hover: #ff8400;
     --block-item-bg: antiquewhite;
+    --block-item-bg-click: #ffa600;
     --button-bg: #ffa600;
     --button-bg-hover: rgb(255, 55, 0);
 }
@@ -45,9 +46,11 @@ h2 {
 }
 
 h3 {
+    text-align: center;
     font-family: 'Dancing Script', cursive;
 }
 
 p {
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
