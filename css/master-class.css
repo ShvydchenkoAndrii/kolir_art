@@ -99,3 +99,16 @@
     right: 0;
     font-size: 1.5rem;
 }
+
+@media (max-width: 1100px) {
+    .main_master-class-item-container, .mc-item3-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        padding: 15px;
+        perspective: 7000px;
+    }
+
+
+}
