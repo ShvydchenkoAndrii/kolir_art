@@ -32,7 +32,7 @@
 .navbar_item:hover {
     text-decoration: underline;
     color: black;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 .social {
@@ -51,7 +51,7 @@
 
 .social-network:hover {
     background-color: var(--social-bg-hover);
-    transition: 0.4s;
+    transition: 0.1s;
 }
 
 body.lock {
@@ -76,7 +76,7 @@ body.lock {
     height: 2px;
     left: 0;
     position: absolute;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
     width: 100%;
 }
 
@@ -138,7 +138,7 @@ body.lock {
         overflow: hidden;
         padding: 100px 24px 50px 24px;
         position: fixed;
-        transition: top 0.3s ease-in 0.1s;
+        transition: top 0.2s ease-in 0.1s;
         top: -100%;
         width: 100%;
         z-index: 2;

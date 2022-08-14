@@ -31,5 +31,14 @@
 
 .social-network:hover {
     background-color: var(--social-bg-hover);
-    transition: 0.6s;
+    transition: 0.1s;
+}
+
+@media (max-width: 900px) {
+    .main_contacts_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
 }
