@@ -17,8 +17,8 @@
 .master-class_item2,
 .master-class_item3,
 .master-class_item4 {
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 500px;
     background-color: var(--block-item-bg);
     border: 1px solid black;
     border-radius: 10px;

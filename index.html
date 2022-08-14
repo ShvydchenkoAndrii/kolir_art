@@ -14,12 +14,14 @@
 <body>
     <header>
         <div class="header_container" id="header_container">
-            <div class="header_logo">
-                <a href="#header_container">
-                    <img class="header_logo_img" alt="Kolir Art Studio Logo" src="img/kolir_art_logo.jpg" width="100">
-                </a>
-            </div>
-            <div class="header_navbar">
+            <div class="header__wrapper">
+                <div class="header_logo">
+                    <a href="#header_container">
+                        <img class="header_logo_img" alt="Kolir Art Studio Logo" src="img/kolir_art_logo.jpg"
+                            width="100">
+                    </a>
+                </div>
+                <div class="main-nav__burger"><span></span></div>
                 <nav class="header_navbar_list">
                     <ul>
                         <li class="navbar_item"><a href="#main_about-us">Про нас</a></li>
@@ -27,14 +29,39 @@
                         <li class="navbar_item"><a href="#main_gallery">Галерея</a></li>
                         <li class="navbar_item"><a href="#main_contacts">Контакти</a></li>
                     </ul>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100068535566999" target="_blank"><img
+                                class="social-network" src="img/facebook-logo.png" alt="facebook logo"></a>
+                        <a href="https://instagram.com/kolir.art?igshid=YmMyMTA2M2Y=" target="_blank"><img
+                                class="social-network" src="img/instagram-logo.png" alt="instagram logo"></a>
+                    </div>
                 </nav>
             </div>
-            <div class="social">
-                <a href="https://www.facebook.com/profile.php?id=100068535566999" target="_blank"><img
-                        class="social-network" src="img/facebook-logo.png" alt="facebook logo"></a>
-                <a href="https://instagram.com/kolir.art?igshid=YmMyMTA2M2Y=" target="_blank"><img
-                        class="social-network" src="img/instagram-logo.png" alt="instagram logo"></a>
-            </div>
+            <!-- <div class="header_container" id="header_container">
+                <div class="header_logo">
+                    <a href="#header_container">
+                        <img class="header_logo_img" alt="Kolir Art Studio Logo" src="img/kolir_art_logo.jpg"
+                            width="100">
+                    </a>
+                </div>
+                <div class="main-nav__burger"><span></span></div>
+                <div class="header_navbar">
+                    <nav class="header_navbar_list">
+                        <ul>
+                            <li class="navbar_item"><a href="#main_about-us">Про нас</a></li>
+                            <li class="navbar_item"><a href="#main_master-class">Майстер класи</a></li>
+                            <li class="navbar_item"><a href="#main_gallery">Галерея</a></li>
+                            <li class="navbar_item"><a href="#main_contacts">Контакти</a></li>
+                        </ul>
+                        <div class="social">
+                            <a href="https://www.facebook.com/profile.php?id=100068535566999" target="_blank"><img
+                                    class="social-network" src="img/facebook-logo.png" alt="facebook logo"></a>
+                            <a href="https://instagram.com/kolir.art?igshid=YmMyMTA2M2Y=" target="_blank"><img
+                                    class="social-network" src="img/instagram-logo.png" alt="instagram logo"></a>
+                        </div>
+                    </nav>
+                </div>
+            </div> -->
         </div>
     </header>
     <main>
@@ -70,75 +97,75 @@
         </section>
         <section class="main_master-class" id="main_master-class">
             <h2>Майстер-класи</h2>
-                <div class="main_master-class-item-container">
-                    <div class="master-class_item0">
-                        <div class="mc-item mc-item--front">
-                            <div class="mc-item_content">
-                                <h3>Дорослі майстер-класи</h3>
-                                <img class="master-class_pic">
-                                <p class="master-class-description">text</p>
-                                <p class="rotate-arrow">⭯</p>
-                            </div>
-                        </div>
-                        <div class="mc-item mc-item--back">
-                            <p class="master-class-description">Якийсь опис</p>
+            <div class="main_master-class-item-container">
+                <div class="master-class_item0">
+                    <div class="mc-item mc-item--front">
+                        <div class="mc-item_content">
+                            <h3>Дорослі майстер-класи</h3>
+                            <img class="master-class_pic">
+                            <p class="master-class-description">text</p>
+                            <p class="rotate-arrow">⭯</p>
                         </div>
                     </div>
-                    <div class="master-class_item1">
-                        <div class="mc-item mc-item--front">
-                            <div class="mc-item_content">
-                                <h3>Дитячі майстер-класи</h3>
-                                <img class="master-class_pic">
-                                <p class="master-class-description">text</p>
-                                <p class="rotate-arrow">⭯</p>
-                            </div>
-                        </div>
-                        <div class="mc-item mc-item--back">
-                            <p>Якийсь опис</p>
-                        </div>
-                    </div>
-                    <div class="master-class_item2">
-                        <div class="mc-item mc-item--front">
-                            <div class="mc-item_content">
-                                <h3>Індивідуальні майстер-класи</h3>
-                                <img class="master-class_pic">
-                                <p class="master-class-description">text</p>
-                                <p class="rotate-arrow">⭯</p>
-                            </div>
-                        </div>
-                        <div class="mc-item mc-item--back">
-                            <p>Якийсь опис</p>
-                        </div>
+                    <div class="mc-item mc-item--back">
+                        <p class="master-class-description">Якийсь опис</p>
                     </div>
                 </div>
-                <div class="mc-item3-4">
-                    <div class="master-class_item3">
-                        <div class="mc-item mc-item--front">
-                            <div class="mc-item_content">
-                                <h3>Пленер</h3>
-                                <img class="master-class_pic">
-                                <p class="master-class-description">text</p>
-                                <p class="rotate-arrow">⭯</p>
-                            </div>
-                        </div>
-                        <div class="mc-item mc-item--back">
-                            <p>Якийсь опис</p>
+                <div class="master-class_item1">
+                    <div class="mc-item mc-item--front">
+                        <div class="mc-item_content">
+                            <h3>Дитячі майстер-класи</h3>
+                            <img class="master-class_pic">
+                            <p class="master-class-description">text</p>
+                            <p class="rotate-arrow">⭯</p>
                         </div>
                     </div>
-                    <div class="master-class_item4">
-                        <div class="mc-item mc-item--front">
-                            <div class="mc-item_content">
-                                <h3>Подарункові сертифікати</h3>
-                                <img class="master-class_pic">
-                                <p class="master-class-description">text</p>
-                                <p class="rotate-arrow">⭯</p>
-                            </div>
-                        </div>
-                        <div class="mc-item mc-item--back">
-                            <p>Якийсь опис</p>
-                        </div>
+                    <div class="mc-item mc-item--back">
+                        <p>Якийсь опис</p>
                     </div>
                 </div>
+                <div class="master-class_item2">
+                    <div class="mc-item mc-item--front">
+                        <div class="mc-item_content">
+                            <h3>Індивідуальні майстер-класи</h3>
+                            <img class="master-class_pic">
+                            <p class="master-class-description">text</p>
+                            <p class="rotate-arrow">⭯</p>
+                        </div>
+                    </div>
+                    <div class="mc-item mc-item--back">
+                        <p>Якийсь опис</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mc-item3-4">
+                <div class="master-class_item3">
+                    <div class="mc-item mc-item--front">
+                        <div class="mc-item_content">
+                            <h3>Пленер</h3>
+                            <img class="master-class_pic">
+                            <p class="master-class-description">text</p>
+                            <p class="rotate-arrow">⭯</p>
+                        </div>
+                    </div>
+                    <div class="mc-item mc-item--back">
+                        <p>Якийсь опис</p>
+                    </div>
+                </div>
+                <div class="master-class_item4">
+                    <div class="mc-item mc-item--front">
+                        <div class="mc-item_content">
+                            <h3>Подарункові сертифікати</h3>
+                            <img class="master-class_pic">
+                            <p class="master-class-description">text</p>
+                            <p class="rotate-arrow">⭯</p>
+                        </div>
+                    </div>
+                    <div class="mc-item mc-item--back">
+                        <p>Якийсь опис</p>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
         <section class="main_gallery" id="main_gallery">
@@ -182,9 +209,9 @@
                     </div>
                     <div class="contacts_info">
                         <br>
-                        <p><i class="fa-solid fa-phone"></i>  +380631933394</p>
+                        <p><i class="fa-solid fa-phone"></i> +380631933394</p>
                         <br>
-                        <p><i class="fa-solid fa-phone"></i>  +380678118838</p>
+                        <p><i class="fa-solid fa-phone"></i> +380678118838</p>
                     </div>
 
                     <div class="contacts_social">
@@ -215,6 +242,7 @@
                 </ul>
         </div>
     </footer>
+    <script src="js/burger.js"></script>
     <script src="js/master-class.js"></script>
 </body>
 
