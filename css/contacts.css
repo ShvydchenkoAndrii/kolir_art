@@ -17,7 +17,7 @@
 
 .contacts_social {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-direction: row;
     gap: 20px;
 }
