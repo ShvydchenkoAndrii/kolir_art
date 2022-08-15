@@ -8,6 +8,12 @@
     
 }
 
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .contacts_info_list {
     display: flex;
     justify-content: space-between;
@@ -34,11 +40,32 @@
     transition: 0.1s;
 }
 
+iframe {
+    width: 600px;
+    height: 450px;
+}
+
 @media (max-width: 900px) {
     .main_contacts_container {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    iframe {
+        width: 500px;
+        height: 450px;
+    }
+}
+
+@media (max-width: 550px) {
+    iframe {
+        width: 400px;
+        height: 450px;
     }
 }

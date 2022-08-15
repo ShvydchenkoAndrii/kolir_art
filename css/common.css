@@ -11,9 +11,9 @@
 
 :root {
     scroll-behavior: smooth;
-    --background-header-footer: rgb(255, 55, 0);
-    --background-color: #f4daaa;
-    --social-bg: #ffa600;
+    --background-header-footer: rgb(247, 108, 7);
+    --background-color: #dddddd;
+    --social-bg: rgb(247, 108, 7);
     --social-bg-hover: #ff8400;
     --block-item-bg: antiquewhite;
     --block-item-bg-click: #ffa600;
