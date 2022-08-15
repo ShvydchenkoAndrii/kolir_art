@@ -1,7 +1,7 @@
 .header__wrapper {
     background-color: var(--background-header-footer);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: white;
     font-family: 'Pacifico', cursive;
@@ -49,10 +49,6 @@
     border-radius: 25%;
 }
 
-/* .social-network:hover {
-    background-color: var(--social-bg-hover);
-    transition: 0.1s;
-} */
 
 body.lock {
     overflow: hidden;

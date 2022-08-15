@@ -27,3 +27,9 @@ const card4 = document.querySelector(".master-class_item4");
 card4.addEventListener("click", function (e) {
   card4.classList.toggle('is-flipped');
 });
+
+const card5 = document.querySelector(".master-class_item5");
+
+card5.addEventListener("click", function (e) {
+  card5.classList.toggle('is-flipped');
+});
