@@ -43,6 +43,7 @@
 
 .master-class_item0.is-flipped {
     transform: rotateY(180deg);
+    background-image: none;
 }
 
 .master-class_item1.is-flipped {
