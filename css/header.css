@@ -1,13 +1,13 @@
 .header__wrapper {
     background-color: var(--background-header-footer);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     color: white;
     font-family: 'Pacifico', cursive;
     font-size: 22px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
     gap: 60px
 }
 
@@ -25,7 +25,7 @@
 .header_navbar_list ul {
     display: flex;
     justify-content: space-around;
-    gap: 80px;
+    gap: 100px;
 }
 
 .navbar_item:hover {
@@ -44,11 +44,10 @@
     width: 35px;
     height: 35px;
     background-color: var(--social-bg);
-    padding: 5px;
-    border: 2px solid white;
+    padding: 3px;
     border-radius: 25%;
+    border: 2px solid white;
 }
-
 
 body.lock {
     overflow: hidden;
@@ -125,6 +124,7 @@ body.lock {
     .header__wrapper {
         display: flex;
         justify-content: space-between;
+        padding: 0;
     }
     .header_navbar_list {
         background-color: var(--background-color);
@@ -151,4 +151,10 @@ body.lock {
 
     }
 
+}
+
+@media (max-width: 600px) {
+    .header__wrapper {
+        padding: 0;
+    }
 }

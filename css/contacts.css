@@ -29,15 +29,12 @@
 }
 
 .social-network {
+    width: 35px;
+    height: 35px;
     background-color: var(--social-bg);
-    padding: 5px;
+    padding: 3px;
     border-radius: 25%;
-
-}
-
-.social-network:hover {
-    background-color: var(--social-bg-hover);
-    transition: 0.1s;
+    border: 2px solid white;
 }
 
 iframe {
