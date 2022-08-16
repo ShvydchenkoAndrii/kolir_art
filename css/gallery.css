@@ -5,19 +5,3 @@
     gap: 10px;
 }
 
-.carousel-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.carousel-item {
-    width: 700px;
-    height: 700px;
-}
-/* .main_gallery {
-    background-image: url(/img/wave3.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    
-} */
